@@ -9,6 +9,15 @@ This repository currently contains a **frontend MVP / demo-ready version** of th
 
 ---
 
+## 🔗 Live Demo
+
+The current demo version of NearNest is deployed using GitHub Pages.
+
+👉 **Access the live website here:**  
+https://raybuilds.github.io/nearnest/
+
+---
+
 ## 🌟 Problem Statement
 
 Students often face confusion when:
