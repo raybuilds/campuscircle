@@ -26,3 +26,49 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+/* ---------- Common Mode Modules ---------- */
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.module-card {
+  background-color: #ffffff;
+  padding: 1.3rem;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.module-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.module-card h4 {
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- Choose Living Type ---------- */
+#choose-living {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.choice-buttons {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.choice-buttons button {
+  min-width: 180px;
+  font-size: 1.05rem;
+}
