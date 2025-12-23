@@ -72,3 +72,18 @@ nav a:hover {
   min-width: 180px;
   font-size: 1.05rem;
 }
+/* ---------- Homepage ---------- */
+#hero {
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+#hero button {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+#how-it-works ol {
+  margin-top: 1rem;
+  padding-left: 1.2rem;
+}
