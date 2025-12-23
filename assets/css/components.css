@@ -87,3 +87,21 @@ nav a:hover {
   margin-top: 1rem;
   padding-left: 1.2rem;
 }
+/* Emergency navbar button */
+.emergency-btn {
+  margin-left: 1.5rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  background-color: #dc2626;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.emergency-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Prevent anchor from hiding under navbar */
+#emergency {
+  scroll-margin-top: 100px;
+}
