@@ -23,22 +23,22 @@ NearNest addresses these problems by structuring the experience into **modes** b
 
 ## 🧭 Application Flow & Architecture
 
-Homepage
-↓
-Common Mode
-├─ Area-based Guidance
-├─ Buy & Sell
-├─ Local Food Ordering
-├─ Emergency Access (Global)
-↓
-Choose Living Type
-├─ Hosteller Mode
-│ ├─ Mess Rating
-│ ├─ Lost & Found
-│ └─ Hygiene & Facilities
-└─ PG / Rental Mode
-├─ Local Services Directory
-└─ Tiffin Services
+Homepage<br>
+↓<br>
+Common Mode<br>
+├─ Area-based Guidance<br>
+├─ Buy & Sell<br>
+├─ Local Food Ordering<br>
+├─ Emergency Access (Global)<br>
+↓<br>
+Choose Living Type<br>
+├─ Hosteller Mode<br>
+│ ├─ Mess Rating<br>
+│ ├─ Lost & Found<br>
+│ └─ Hygiene & Facilities<br>
+└─ PG / Rental Mode<br>
+├─ Local Services Directory<br>
+└─ Tiffin Services<br>
 
 
 ---
@@ -81,17 +81,17 @@ For the MVP, emergency information is centralized in Common Mode to ensure consi
 
 ## 📁 Project Structure
 
-nearnest/
-├── index.html
-├── modes/
-│ ├── common.html
-│ ├── hostel.html
-│ └── pg.html
-├── assets/
-│ ├── css/
-│ ├── js/
-│ └── images/
-└── README.md
+nearnest/<br>
+├── index.html<br>
+├── modes/<br>
+│ ├── common.html<br>
+│ ├── hostel.html<br>
+│ └── pg.html<br>
+├── assets/<br>
+│ ├── css/<br>
+│ ├── js/<br>
+│ └── images/<br>
+└── README.md<br>
 
 
 ---
