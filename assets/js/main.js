@@ -1,23 +1,13 @@
-header, footer {
-  background-color: #ffffff;
-  padding: 1rem 2rem;
-  border-bottom: 1px solid #e5e7eb;
-}
+// Active navbar highlighting
+(function () {
+  const links = document.querySelectorAll(".nav-link");
+  const currentPath = window.location.pathname;
 
-footer {
-  border-top: 1px solid #e5e7eb;
-  border-bottom: none;
-  text-align: center;
-}
+  links.forEach(link => {
+    const linkPath = link.getAttribute("href");
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
+    if (currentPath.endsWith(linkPath)) {
+      link.classList.add("active");
+    }
+  });
+})();
