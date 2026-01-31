@@ -1,24 +1,23 @@
-// Active navbar highlighting
-(function () {
-  const links = document.querySelectorAll(".nav-link");
-  const currentPath = window.location.pathname;
+header, footer {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
 
-  links.forEach(link => {
-    const linkPath = link.getAttribute("href");
-    if (currentPath.endsWith(linkPath)) {
-      link.classList.add("active");
-    }
-  });
-})();
+footer {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: none;
+  text-align: center;
+}
 
-// Fade-in on scroll
-const sections = document.querySelectorAll("section");
-sections.forEach(sec => sec.classList.add("fade-in"));
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-window.addEventListener("scroll", () => {
-  sections.forEach(sec => {
-    if (sec.getBoundingClientRect().top < window.innerHeight - 80) {
-      sec.classList.add("visible");
-    }
-  });
-});
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
