@@ -1,8 +1,8 @@
-# NearNest
+# Campus-Circle
 
-**NearNest – From moving in to settling down**
+**Campus-Circle – From moving in to settling down**
 
-NearNest is a student-focused web platform designed to help students make better accommodation decisions and manage daily living needs after moving in.  
+Campus-Circle is a student-focused web platform designed to help students make better accommodation decisions and manage daily living needs after moving in.  
 The project focuses on clarity, safety, and guided decision-making through clearly defined modes.
 
 This repository currently contains a **frontend MVP / demo-ready version** of the platform.
@@ -26,7 +26,7 @@ Students often face confusion when:
 - Managing services after moving in
 - Accessing help during emergencies
 
-NearNest addresses these problems by structuring the experience into **modes** based on the student’s living context.
+Campus-Circle addresses these problems by structuring the experience into **modes** based on the student’s living context.
 
 ---
 
@@ -90,7 +90,7 @@ For the MVP, emergency information is centralized in Common Mode to ensure consi
 
 ## 📁 Project Structure
 
-nearnest/<br>
+campuscircle/<br>
 ├── index.html<br>
 ├── modes/<br>
 │ ├── common.html<br>
