@@ -14,7 +14,7 @@ This repository currently contains a **frontend MVP / demo-ready version** of th
 The current demo version of NearNest is deployed using GitHub Pages.
 
 👉 **Access the live website here:**  
-https://raybuilds.github.io/nearnest/
+https://raybuilds.github.io/campuscircle/
 
 ---
 
