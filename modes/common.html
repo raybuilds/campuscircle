@@ -3,109 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Common Mode | Campus-Circle</title>
+  <title>Common Mode | Campus Circle</title>
+
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/layout.css">
   <link rel="stylesheet" href="../assets/css/components.css">
-
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-<nav>
-  <h1><a href="../index.html">Campus-Circle</a></h1>
+<header>
+  <nav class="sticky-nav">
+    <h1 class="brand">
+      <a href="../index.html">Campus Circle</a>
+    </h1>
 
-  <div>
-    <a href="common.html" class="nav-link">Common</a>
-    <a href="hostel.html" class="nav-link">Hostel</a>
-    <a href="pg.html" class="nav-link">PG</a>
+    <div class="nav-links">
+      <a href="common.html" class="nav-link">Common</a>
+      <a href="hostel.html" class="nav-link">Hostel</a>
+      <a href="pg.html" class="nav-link">PG</a>
+    </div>
+  </nav>
+</header>
 
-    <a href="common.html#emergency" class="emergency-btn">
-      Emergency
-    </a>
-  </div>
-</nav>
+<main>
 
-  </header>
+  <!-- MODE HEADER -->
+  <section class="mode-header">
+    <span class="mode-eyebrow">START HERE</span>
+    <h2>Common Mode</h2>
+    <p>
+      Not sure whether to choose a hostel or a PG?
+      Use Common Mode to explore areas, food, essentials,
+      and student experiences before deciding.
+    </p>
+  </section>
 
-  <main>
+  <!-- DECISION HELPER BANNER -->
+  <section class="decision-banner">
+    <strong>Stuck between Hostel vs PG?</strong>
+    <p>
+      Answer 3 quick questions to see what fits your lifestyle better.
+    </p>
+    <button>Start decision helper</button>
+  </section>
 
-    <!-- Page Intro -->
-    <section id="common-intro">
-      <h2>Common Mode</h2>
-      <p>
-        Not sure whether to choose a hostel or a PG?
-        Start here. Explore guidance and essentials before deciding.
+  <!-- CONTROL CENTER -->
+  <section class="control-center">
+
+    <!-- AREA GUIDANCE -->
+    <div class="control-block">
+      <h3>Decide Your Area</h3>
+      <p class="block-desc">
+        Compare student-friendly localities based on distance,
+        safety, commute, and affordability.
       </p>
-    </section>
-<!-- Common Mode Modules -->
-<section id="common-modules">
-  <h3>Explore Before You Decide</h3>
 
-  <div class="module-grid">
-
-    <div class="module-card">
-      <h4>Area-based Guidance</h4>
-      <p>
-        Compare localities based on distance, safety,
-        commute time, and student preferences.
-      </p>
+      <div class="mini-actions">
+        <button>Explore areas</button>
+        <span class="meta">Popular: Near campus, metro-connected</span>
+      </div>
     </div>
 
-    <div class="module-card">
-      <h4>Buy & Sell</h4>
-      <p>
-        Buy or sell essentials like books, furniture,
-        and daily-use items within the student community.
+    <!-- MARKETPLACE -->
+    <div class="control-block">
+      <h3>Student Marketplace</h3>
+      <p class="block-desc">
+        Buy, sell, or exchange books, furniture,
+        and daily-use items with nearby students.
       </p>
+
+      <div class="mini-actions">
+        <button>Post an item</button>
+        <span class="meta">3 new posts today</span>
+      </div>
+
+      <ul class="activity-feed">
+        <li>📘 Calculus book – ₹300 <span>• 2 hours ago</span></li>
+        <li>🪑 Study chair – Free <span>• Yesterday</span></li>
+      </ul>
     </div>
 
-    <div class="module-card">
-      <h4>Local Food Ordering</h4>
-      <p>
-        Explore nearby food options and tiffin services
-        trusted by students.
+    <!-- FOOD & TIFFIN -->
+    <div class="control-block">
+      <h3>Food & Tiffin</h3>
+      <p class="block-desc">
+        Discover affordable tiffin services and
+        local food options trusted by students.
       </p>
+
+      <div class="mini-actions">
+        <button>Find tiffin services</button>
+        <span class="meta">Veg & Non-veg options</span>
+      </div>
+
+      <ul class="activity-feed">
+        <li>🍱 Sharma Tiffin – ₹90/meal <span>• Near North Campus</span></li>
+        <li>🥗 Green Bowl – Veg only <span>• 1 km away</span></li>
+      </ul>
     </div>
 
-    <div class="module-card" id="emergency">
-      <h4>Emergency Access</h4>
-      <p>
-        One-click access to emergency contacts,
-        campus security, and nearby medical services.
+    <!-- EMERGENCY -->
+    <div class="control-block" id="emergency">
+      <h3>Emergency & Help</h3>
+      <p class="block-desc">
+        Quick access to essential helplines and
+        support services when you need them.
       </p>
+
+      <ul class="emergency-list">
+        <li>🚨 Police / Ambulance: <strong>112</strong></li>
+        <li>👩 Women’s Helpline: <strong>181</strong></li>
+        <li>🧠 Mental Health Support (iCall): <strong>9152987821</strong></li>
+      </ul>
     </div>
 
-  </div>
-</section>
+  </section>
 
-<!-- Choose Living Type -->
-<section id="choose-living">
-  <h3>Choose Your Living Type</h3>
-  <p>
-    Once you’re ready, select your living arrangement
-    to unlock relevant features.
-  </p>
+</main>
 
-  <div class="choice-buttons">
-    <a href="hostel.html">
-      <button>Hosteller Mode</button>
-    </a>
+<footer>
+  <p>&copy; 2025 Campus Circle</p>
+</footer>
 
-    <a href="pg.html">
-      <button>PG / Rental Mode</button>
-    </a>
-  </div>
-</section>
-
-  </main>
-
-  <footer>
-    <p>&copy; 2026 Campus-Circle</p>
-  </footer>
-
-  <script src="../assets/js/main.js"></script>
-
+<script src="../assets/js/main.js"></script>
 </body>
 </html>
