@@ -3,107 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Campus-Circle | From moving in to settling down</title>
+  <title>Campus Circle | From moving in to settling down</title>
+
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/layout.css">
   <link rel="stylesheet" href="assets/css/components.css">
 </head>
 <body>
 
-  <!-- Header / Navigation -->
-  <header>
-<nav>
-  <h1><a href="index.html">Campus-Circle</a></h1>
+<header>
+  <nav class="sticky-nav">
+    <h1 class="brand">
+      <a href="index.html">Campus Circle</a>
+    </h1>
 
-  <div>
-    <a href="modes/common.html" class="nav-link">Common</a>
-    <a href="modes/hostel.html" class="nav-link">Hostel</a>
-    <a href="modes/pg.html" class="nav-link">PG</a>
+    <div class="nav-links">
+      <a href="modes/common.html" class="nav-link">Common</a>
+      <a href="modes/hostel.html" class="nav-link">Hostel</a>
+      <a href="modes/pg.html" class="nav-link">PG</a>
+    </div>
+  </nav>
+</header>
 
-    <a href="modes/common.html#emergency" class="emergency-btn">
-      Emergency
-    </a>
-  </div>
-</nav>
-
-  </header>
-
-  <!-- Main Content -->
 <main>
 
-  <!-- Hero Section -->
+  <!-- HERO -->
   <section id="hero">
     <h2>From moving in to settling down</h2>
     <p>
-      Campus-Circle helps students make smarter living decisions
-      and manage everyday needs with ease.
+      Campus Circle helps students living away from home
+      decide better, settle faster, and manage everyday campus life.
     </p>
 
     <a href="modes/common.html">
-      <button>Start with Common Mode</button>
+      <button class="primary-btn">Start with Common Mode</button>
     </a>
+
+    <p class="secondary-cta">
+      Already decided?
+      <a href="modes/hostel.html">Go to Hostel</a> /
+      <a href="modes/pg.html">Go to PG</a>
+    </p>
   </section>
 
-  <!-- What NearNest Offers -->
-  <section id="home-modules">
-    <h3>What NearNest Helps With</h3>
+  <!-- WHO / PROBLEM / OUTCOME -->
+  <section class="funnel-block">
+    <p>
+      For students stuck between <strong>hostel vs PG</strong> and overwhelmed by
+      food issues, hygiene, safety, and daily services —
+      <strong>Campus Circle</strong> offers guidance and community support,
+      not just listings.
+    </p>
+  </section>
 
-    <div class="module-grid">
-
-      <div class="module-card">
-        <h4>Living Guidance</h4>
-        <p>
-          Compare hostels and PGs using area insights,
-          commute factors, and student experiences.
-        </p>
-      </div>
-
-      <div class="module-card">
-        <h4>Student Marketplace</h4>
-        <p>
-          Buy, sell, and exchange essentials
-          within the student community.
-        </p>
-      </div>
-
-      <div class="module-card">
-        <h4>Daily Services</h4>
-        <p>
-          Access food, tiffin services,
-          and local help around your stay.
-        </p>
-      </div>
-
-      <div class="module-card">
-        <h4>Safety & Support</h4>
-        <p>
-          Emergency access and essential contacts
-          when you need them most.
-        </p>
-      </div>
-
+  <!-- MODE PREVIEW -->
+  <section class="mode-preview">
+    <div class="mode-pill">
+      <h4>Common Mode</h4>
+      <p>Decide areas, explore options, and get essentials before choosing.</p>
     </div>
-  </section>
 
-  <!-- How It Works -->
-  <section id="how-it-works">
-    <h3>How It Works</h3>
-    <ol>
-      <li>Start in Common Mode</li>
-      <li>Explore guidance and essentials</li>
-      <li>Choose Hostel or PG mode</li>
-      <li>Access services designed for your living type</li>
-    </ol>
+    <div class="mode-pill">
+      <h4>Hostel Mode</h4>
+      <p>Mess feedback, hygiene updates, and lost & found inside hostels.</p>
+    </div>
+
+    <div class="mode-pill">
+      <h4>PG Mode</h4>
+      <p>Tiffin services, local helpers, and independent living support.</p>
+    </div>
   </section>
 
 </main>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Campus-Circle</p>
-  </footer>
-  
-<script src="assets/js/main.js"></script>
+<!-- EMERGENCY FLOATING BUTTON -->
+<a href="modes/common.html#emergency" class="emergency-fab">
+  Emergency
+</a>
 
+<footer>
+  <p>&copy; 2025 Campus Circle</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
