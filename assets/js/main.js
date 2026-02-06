@@ -1,6 +1,7 @@
 (function () {
   const path = window.location.pathname;
 
+  
   let currentMode = "Common";
   if (path.includes("hostel")) currentMode = "Hostel";
   if (path.includes("pg")) currentMode = "PG";

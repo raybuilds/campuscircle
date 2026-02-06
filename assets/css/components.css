@@ -183,6 +183,7 @@ nav a:hover {
 .emergency-fab:hover {
   background: #b91c1c;
 }
+
 /* ---------- Mode Switcher ---------- */
 .mode-switcher {
   display: flex;
