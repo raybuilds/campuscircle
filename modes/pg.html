@@ -3,70 +3,127 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PG / Rental Mode | NearNest</title>
+  <title>PG Mode | Campus Circle</title>
+
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/layout.css">
   <link rel="stylesheet" href="../assets/css/components.css">
 </head>
 <body>
 
-  <header>
-<nav>
-  <h1><a href="../index.html">Campus-Circle</a></h1>
+<header>
+  <nav class="sticky-nav">
+    <h1 class="brand">
+      <a href="../index.html">Campus Circle</a>
+    </h1>
 
-  <div>
-    <a href="common.html" class="nav-link">Common</a>
-    <a href="hostel.html" class="nav-link">Hostel</a>
-    <a href="pg.html" class="nav-link">PG</a>
+    <div class="nav-links">
+      <a href="common.html" class="nav-link">Common</a>
+      <a href="hostel.html" class="nav-link">Hostel</a>
+      <a href="pg.html" class="nav-link">PG</a>
+    </div>
+  </nav>
+</header>
 
-    <a href="common.html#emergency" class="emergency-btn">
-      Emergency
-    </a>
-  </div>
-</nav>
+<main>
 
-  </header>
+  <!-- MODE HEADER -->
+  <section class="mode-header">
+    <span class="mode-eyebrow">INDEPENDENT LIVING</span>
+    <h2>PG Mode</h2>
+    <p>
+      Support for students living in PGs or rented rooms —
+      food, services, safety, and everyday essentials.
+    </p>
+  </section>
 
-  <main>
+  <!-- ESSENTIAL SERVICES -->
+  <section class="control-block">
+    <h3>🛠 Essential Services</h3>
+    <p class="block-desc">
+      Services you will definitely need while living independently.
+      Verified through student recommendations.
+    </p>
 
-    <section id="pg-intro">
-      <h2>PG / Rental Mode</h2>
-      <p>
-        Support and services for students living in PGs or rented rooms.
-      </p>
-    </section>
-<!-- PG Modules -->
-<section id="pg-modules">
-  <h3>PG & Rental Services</h3>
-
-  <div class="module-grid">
-
-    <div class="module-card">
-      <h4>Local Services Directory</h4>
-      <p>
-        Find trusted electricians, plumbers,
-        laundry services, and other daily-need helpers.
-      </p>
+    <div class="mini-actions">
+      <button>Browse essential services</button>
+      <span class="meta">Laundry • Repairs • Internet</span>
     </div>
 
-    <div class="module-card">
-      <h4>Tiffin Services</h4>
-      <p>
-        Discover affordable and reliable tiffin services
-        recommended by nearby students.
-      </p>
+    <ul class="activity-feed">
+      <li>🧺 QuickWash Laundry <span>• 300m away</span></li>
+      <li>🔧 Raju Electrician <span>• Same-day service</span></li>
+      <li>📶 Local WiFi Setup <span>• Student discount</span></li>
+    </ul>
+  </section>
+
+  <!-- TIFFIN & FOOD -->
+  <section class="control-block">
+    <h3>🍱 Tiffin & Food Services</h3>
+    <p class="block-desc">
+      Compare affordable tiffin services based on
+      price, food type, and reliability.
+    </p>
+
+    <div class="mini-actions">
+      <button>Find tiffin services</button>
+      <span class="meta">Veg • Non-veg • Monthly plans</span>
     </div>
 
-  </div>
-</section>
+    <ul class="activity-feed">
+      <li>🍛 Sharma Tiffin – ₹90/meal <span>• Veg</span></li>
+      <li>🍗 Punjab Mess – ₹120/meal <span>• Veg + Non-veg</span></li>
+      <li>🥗 Green Plate – ₹100/meal <span>• Home-style</span></li>
+    </ul>
+  </section>
 
-  </main>
+  <!-- NICE TO HAVE -->
+  <section class="control-block">
+    <h3>✨ Nice-to-Have Helpers</h3>
+    <p class="block-desc">
+      Optional services that make PG life easier,
+      but aren’t urgent on day one.
+    </p>
 
-  <footer>
-    <p>&copy; 2026 Campus-Circle</p>
-  </footer>
+    <ul class="activity-feed">
+      <li>🧹 Weekly room cleaning</li>
+      <li>🚚 Water can delivery</li>
+      <li>🪜 RO maintenance</li>
+    </ul>
+  </section>
 
-  <script src="../assets/js/main.js"></script>
+  <!-- SAFETY & VERIFICATION -->
+  <section class="control-block">
+    <h3>🔐 Safety & Verification</h3>
+    <p class="block-desc">
+      Simple checks to stay safe while dealing
+      with landlords, helpers, and vendors.
+    </p>
 
+    <ul class="activity-feed">
+      <li>📄 Always ask for ID before hiring helpers</li>
+      <li>📸 Keep deposit receipts and room photos</li>
+      <li>📍 Share live location during first visits</li>
+    </ul>
+  </section>
+
+  <!-- QUICK TIPS -->
+  <section class="control-block">
+    <h3>💡 PG Living Tips</h3>
+
+    <ul class="activity-feed">
+      <li>📌 Checklist before paying deposit</li>
+      <li>📌 How to negotiate tiffin prices politely</li>
+      <li>📌 What to clarify in PG rules upfront</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Campus Circle</p>
+</footer>
+
+<script src="../assets/js/main.js"></script>
 </body>
 </html>
