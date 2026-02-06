@@ -3,78 +3,117 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hosteller Mode | Campus-Circle</title>
+  <title>Hostel Mode | Campus Circle</title>
+
   <link rel="stylesheet" href="../assets/css/base.css">
   <link rel="stylesheet" href="../assets/css/layout.css">
   <link rel="stylesheet" href="../assets/css/components.css">
 </head>
 <body>
 
-  <header>
-<nav>
-  <h1><a href="../index.html">Campus-Circle</a></h1>
+<header>
+  <nav class="sticky-nav">
+    <h1 class="brand">
+      <a href="../index.html">Campus Circle</a>
+    </h1>
 
-  <div>
-    <a href="common.html" class="nav-link">Common</a>
-    <a href="hostel.html" class="nav-link">Hostel</a>
-    <a href="pg.html" class="nav-link">PG</a>
+    <div class="nav-links">
+      <a href="common.html" class="nav-link">Common</a>
+      <a href="hostel.html" class="nav-link">Hostel</a>
+      <a href="pg.html" class="nav-link">PG</a>
+    </div>
+  </nav>
+</header>
 
-    <a href="common.html#emergency" class="emergency-btn">
-      Emergency
-    </a>
-  </div>
-</nav>
+<main>
 
-  </header>
+  <!-- MODE HEADER -->
+  <section class="mode-header">
+    <span class="mode-eyebrow">HOSTEL LIFE</span>
+    <h2>Hostel Mode</h2>
+    <p>
+      Tools to manage shared living — food quality,
+      hygiene issues, and lost items inside hostels.
+    </p>
+  </section>
 
-  <main>
+  <!-- MESS FEEDBACK -->
+  <section class="control-block">
+    <h3>🍽 Mess Feedback</h3>
+    <p class="block-desc">
+      How was today’s food? Share quick feedback and
+      see recent trends from other students.
+    </p>
 
-    <section id="hostel-intro">
-      <h2>Hosteller Mode</h2>
-      <p>
-        Tools and information designed for students living in hostels.
-      </p>
-    </section>
-<!-- Hosteller Modules -->
-<section id="hostel-modules">
-  <h3>Hostel Essentials</h3>
-
-  <div class="module-grid">
-
-    <div class="module-card">
-      <h4>Mess Rating</h4>
-      <p>
-        View and submit feedback on mess quality,
-        hygiene, and food consistency.
-      </p>
+    <div class="mini-actions">
+      <button>Submit today’s feedback</button>
+      <span class="meta">Last 7 days: Mostly Mixed</span>
     </div>
 
-    <div class="module-card">
-      <h4>Lost & Found</h4>
-      <p>
-        Report lost items or check recent finds
-        within the hostel premises.
-      </p>
+    <ul class="activity-feed">
+      <li>⭐ ⭐ ⭐☆☆ – Lunch was okay, too oily <span>• Today</span></li>
+      <li>⭐ ⭐☆☆☆ – Dinner was cold <span>• Yesterday</span></li>
+      <li>⭐ ⭐ ⭐ ⭐☆ – Breakfast was good <span>• 2 days ago</span></li>
+    </ul>
+  </section>
+
+  <!-- HYGIENE & FACILITIES -->
+  <section class="control-block">
+    <h3>🧹 Hygiene & Facilities</h3>
+    <p class="block-desc">
+      Track cleanliness and facility issues inside
+      the hostel and see current status.
+    </p>
+
+    <div class="mini-actions">
+      <button>Report an issue</button>
+      <span class="meta">Status updates visible to all</span>
     </div>
 
-    <div class="module-card">
-      <h4>Hygiene & Facilities</h4>
-      <p>
-        Updates and reports related to cleanliness,
-        water supply, and shared facilities.
-      </p>
+    <ul class="activity-feed">
+      <li>🚿 Washroom water issue <strong>[In Progress]</strong> <span>• Block B</span></li>
+      <li>🗑 Garbage not collected <strong>[Open]</strong> <span>• Floor 2</span></li>
+      <li>🧼 Corridor cleaned <strong>[Resolved]</strong> <span>• Yesterday</span></li>
+    </ul>
+  </section>
+
+  <!-- LOST & FOUND -->
+  <section class="control-block">
+    <h3>🎒 Lost & Found</h3>
+    <p class="block-desc">
+      Lost something or found an item?
+      Post here so hostel mates can coordinate.
+    </p>
+
+    <div class="mini-actions">
+      <button>I lost an item</button>
+      <button>I found an item</button>
     </div>
 
-  </div>
-</section>
+    <ul class="activity-feed">
+      <li>🎧 Lost earphones near mess <span>• Today</span></li>
+      <li>🔑 Found room keys (Block C) <span>• Yesterday</span></li>
+      <li>📱 Found phone charger <span>• 2 days ago</span></li>
+    </ul>
+  </section>
 
-  </main>
+  <!-- QUICK TIPS -->
+  <section class="control-block">
+    <h3>💡 Hostel Quick Tips</h3>
 
-  <footer>
-    <p>&copy; 2026 Campus-Circle</p>
-  </footer>
+    <ul class="activity-feed">
+      <li>📌 How to complain about mess food politely</li>
+      <li>📌 What to do if your room has maintenance delay</li>
+      <li>📌 Best time to talk to hostel office</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Campus Circle</p>
+</footer>
 
 <script src="../assets/js/main.js"></script>
-
 </body>
 </html>
