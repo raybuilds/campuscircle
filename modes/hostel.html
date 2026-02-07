@@ -19,7 +19,6 @@
 
     <div class="mode-switcher">
       <span class="current-mode">Hostel</span>
-
       <div class="mode-links">
         <a href="common.html" class="nav-link">Common</a>
         <a href="hostel.html" class="nav-link">Hostel</a>
@@ -37,48 +36,70 @@
     <h2>Hostel Mode</h2>
     <p>
       Tools to manage shared living — food quality,
-      hygiene issues, and lost items inside hostels.
+      hygiene issues, and coordination inside hostels.
     </p>
   </section>
 
-<section class="decision-banner">
-  <strong>Need help right now?</strong>
-  <a href="safety.html">Safety & Support</a> ·
-  <a href="crisis.html">Crisis / Emergency</a>
-</section>
+  <!-- SAFETY QUICK ACCESS -->
+  <section class="decision-banner">
+    <strong>Need help right now?</strong>
+    <a href="safety.html">Safety & Support</a> ·
+    <a href="crisis.html">Crisis / Emergency</a>
+  </section>
 
-
-  <!-- MESS FEEDBACK -->
+  <!-- MESS FEEDBACK (DEEPENED) -->
   <section class="control-block">
     <h3>🍽 Mess Feedback</h3>
+
     <p class="block-desc">
-      How was today’s food? Share quick feedback and
-      see recent trends from other students.
+      Daily student feedback on mess food quality.
+      Patterns matter more than single complaints.
     </p>
 
     <div class="mini-actions">
       <button>Submit today’s feedback</button>
-      <span class="meta">Last 7 days: Mostly Mixed</span>
+      <span class="meta">This week: <strong>Mostly Poor</strong></span>
     </div>
 
+    <!-- WEEKLY SUMMARY -->
     <ul class="activity-feed">
-      <li>⭐ ⭐ ⭐☆☆ – Lunch was okay, too oily <span>• Today</span></li>
-      <li>⭐ ⭐☆☆☆ – Dinner was cold <span>• Yesterday</span></li>
-      <li>⭐ ⭐ ⭐ ⭐☆ – Breakfast was good <span>• 2 days ago</span></li>
+      <li>📊 <strong>Weekly Summary</strong></li>
+      <li>⬇️ Quality trending down (last 5 days)</li>
+      <li>⚠️ Most reported issues: Oily food, Cold meals</li>
+      <li>👥 18 students submitted feedback this week</li>
+    </ul>
+
+    <!-- RECENT FEEDBACK -->
+    <ul class="activity-feed">
+      <li>
+        ⭐⭐☆☆☆ – Lunch was too oily
+        <span>• Today</span>
+        <span class="meta">[Oily]</span>
+      </li>
+      <li>
+        ⭐☆☆☆☆ – Dinner served cold
+        <span>• Yesterday</span>
+        <span class="meta">[Cold]</span>
+      </li>
+      <li>
+        ⭐⭐⭐☆☆ – Breakfast acceptable
+        <span>• 2 days ago</span>
+      </li>
     </ul>
   </section>
 
   <!-- HYGIENE & FACILITIES -->
   <section class="control-block">
     <h3>🧹 Hygiene & Facilities</h3>
+
     <p class="block-desc">
-      Track cleanliness and facility issues inside
-      the hostel and see current status.
+      Track cleanliness and facility issues
+      visible to all hostel residents.
     </p>
 
     <div class="mini-actions">
       <button>Report an issue</button>
-      <span class="meta">Status updates visible to all</span>
+      <span class="meta">Shared status updates</span>
     </div>
 
     <ul class="activity-feed">
@@ -88,12 +109,13 @@
     </ul>
   </section>
 
-  <!-- LOST & FOUND (PREVIEW + LINK) -->
+  <!-- LOST & FOUND -->
   <section class="control-block">
     <h3>🎒 Lost & Found</h3>
+
     <p class="block-desc">
-      Lost something or found an item?
-      Check the shared board so hostel mates can coordinate quickly.
+      Lost or found an item inside the hostel?
+      Use the shared board to coordinate recovery.
     </p>
 
     <div class="mini-actions">
@@ -114,22 +136,21 @@
     <h3>💡 Hostel Quick Tips</h3>
 
     <ul class="activity-feed">
-      <li>📌 How to complain about mess food politely</li>
-      <li>📌 What to do if your room has maintenance delay</li>
-      <li>📌 Best time to talk to hostel office</li>
+      <li>📌 Repeated food complaints matter more than single reports</li>
+      <li>📌 Report hygiene issues early for faster action</li>
+      <li>📌 Collective feedback is harder to ignore</li>
     </ul>
   </section>
 
 </main>
+
+<!-- EMERGENCY FAB -->
+<a href="crisis.html" class="emergency-fab" title="Emergency">🚨</a>
 
 <footer>
   <p>&copy; 2025 Campus Circle</p>
 </footer>
 
 <script src="../assets/js/main.js"></script>
-<a href="crisis.html" class="emergency-fab" title="Emergency">
-  🚨
-</a>
-
 </body>
 </html>
