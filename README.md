@@ -1,144 +1,183 @@
-# Campus-Circle
+# Campus Circle
 
-**Campus-Circle – From moving in to settling down**
+Campus Circle is a **mode-based survival platform** for students living away from home.  
+It focuses on **daily pain points**—food quality, safety, lost items, hygiene, and sudden crises—rather than listings or brokerage.
 
-Campus-Circle is a student-focused web platform designed to help students make better accommodation decisions and manage daily living needs after moving in.  
-The project focuses on clarity, safety, and guided decision-making through clearly defined modes.
-
-This repository currently contains a **frontend MVP / demo-ready version** of the platform.
+This repository contains a **static, demo-ready v1** designed for clarity, trust, and realistic student workflows.
 
 ---
 
-## 🔗 Live Demo
+## 🧠 Core Idea
 
-The current demo version of Campus-Circle is deployed using GitHub Pages.
+Students don’t live in “features”.  
+They live in **states**.
 
-👉 **Access the live website here:**  
-https://raybuilds.github.io/campuscircle/
-
-
----
-
-## 🌟 Problem Statement
-
-Students often face confusion when:
-- Choosing between hostel and PG living
-- Understanding area suitability and daily needs
-- Managing services after moving in
-- Accessing help during emergencies
-
-Campus-Circle addresses these problems by structuring the experience into **modes** based on the student’s living context.
+Campus Circle is organized around **modes of student life**, not pages or listings.
 
 ---
 
-## 🧭 Application Flow & Architecture
+## 🧭 Modes
 
-Homepage<br>
-↓<br>
-Common Mode<br>
-├─ Area-based Guidance<br>
-├─ Buy & Sell<br>
-├─ Local Food Ordering<br>
-├─ Emergency Access (Global)<br>
-↓<br>
-Choose Living Type<br>
-├─ Hosteller Mode<br>
-│ ├─ Mess Rating<br>
-│ ├─ Lost & Found<br>
-│ └─ Hygiene & Facilities<br>
-└─ PG / Rental Mode<br>
-├─ Local Services Directory<br>
-└─ Tiffin Services<br>
+### Common Mode (Home Dashboard)
+For students who are undecided or settling in.
 
+- Area & locality guidance (preview)
+- Marketplace preview (books, essentials)
+- Food & tiffin discovery preview
+- Emergency access
+- Seeded community activity
+
+**Purpose:** Help students decide and orient themselves.
 
 ---
 
-## 🧩 Modes Overview
+### Hostel Mode (Shared Living)
+For students living in hostels.
 
-### Common Mode
-For students who have not yet decided between hostel or PG living.  
-Provides guidance, essential services, and a centralized emergency access point.
+- Mess feedback with **weekly trends**
+- Hygiene & facilities issue tracking
+- Lost & Found (preview + link)
+- Collective accountability tips
 
-### Hosteller Mode
-Designed for students living in hostels.  
-Focuses on mess quality, hygiene, shared facilities, and hostel-specific issues.
-
-### PG / Rental Mode
-Designed for students living independently.  
-Focuses on external services such as tiffin providers and local service professionals.
+**Purpose:** Make shared problems visible and harder to ignore.
 
 ---
 
-## 🚨 Emergency Access (Global Feature)
+### PG Mode (Independent Living)
+For students living in PGs or rented rooms.
 
-Emergency access is available from **every page via the navigation bar**.  
-For the MVP, emergency information is centralized in Common Mode to ensure consistent and immediate access regardless of the user’s current mode.
+- Tiffin & food feedback with **reliability signals**
+- Daily services (laundry, repairs, Wi-Fi)
+- Lost & Found (preview + link)
+- Safety-first living tips
 
----
-
-## 🛠️ Tech Stack
-
-**Current**
-- HTML5
-- CSS3
-- Vanilla JavaScript (UI-level interactions only)
-
-**Scope**
-- No backend or database integration yet
-- Focused on structure, UX clarity, and demo readiness
+**Purpose:** Support self-managed student living.
 
 ---
 
-## 📁 Project Structure
+## 🛟 Safety & Crisis (Core Pillar)
 
-campuscircle/<br>
-├── index.html<br>
-├── modes/<br>
-│ ├── common.html<br>
-│ ├── hostel.html<br>
-│ └── pg.html<br>
-├── assets/<br>
-│ ├── css/<br>
-│ ├── js/<br>
-│ └── images/<br>
-└── README.md<br>
+### Safety & Trust Page
+A dedicated, always-accessible safety hub.
 
+Includes:
+- Anti-ragging helpline (1800-180-5522)
+- Women’s safety numbers (181 / 1091)
+- Mental health support (Tele-MANAS 14416)
+- Clear “what to do” protocols for:
+  - harassment
+  - theft
+  - food hygiene issues
 
----
-
-## 👥 Contributors
-
-| Name | GitHub | Responsibility |
-|----|----|----|
-| **Rohit Yadav** | raybuilds | Frontend architecture, UI/UX design, HTML structure, base CSS, JavaScript integration, overall project direction |
-| **Md Ashif Ansari** | ashif945 | CSS improvements, visual polish, responsiveness *(upcoming work)* |
-| **Varun Agrahari** | va7tech-coder | JavaScript enhancements, UI interactions, feature upgrades *(upcoming work)* |
-
-> Note: CSS and JavaScript upgrades listed above are planned contributions and will be implemented in future iterations.
+All safety content follows a **calm, repeatable micro-structure**:
+- When to use
+- Action
+- What to say
+- What happens next
 
 ---
 
-## 🚧 Current Status
+### Crisis / Transition Mode
+A **panic room**, not a browsing page.
 
-- ✅ Information architecture finalized  
-- ✅ All mode pages implemented  
-- ✅ Card-based, consistent UI  
-- ✅ Global Emergency access via navbar  
-- ✅ Active navbar highlighting  
-- ⏳ CSS refinement (planned)  
-- ⏳ JavaScript feature expansion (planned)
+Used for:
+- Immediate danger
+- Ragging or harassment
+- Sudden eviction / forced move
+- Emotional overload or panic
 
----
-
-## 🔮 Future Scope
-
-- Improved responsiveness and UI polish
-- Richer JavaScript interactions
-- Backend integration for real data
-- Role-based access for hostel authorities and service providers
+Focused on **checklists and immediate steps**, not discussion or posting.
 
 ---
 
-## 📌 Note
+## 📣 Tiny Products (v1 Depth)
 
-This project is currently a **frontend MVP / demo** focused on usability, clarity, and presentation rather than full functionality.
+### Lost & Found
+A shared coordination board treated as a small product:
+
+- Structured item cards (item, category, location, time, status)
+- Status visibility: Lost / Found / Returned
+- Clear recovery protocol
+
+Linked from both Hostel and PG modes.
+
+---
+
+### Food Feedback
+Deepened beyond star ratings:
+
+- Weekly trend labels
+- Repeated issue signals
+- Participation counts
+- Reliability emphasis (especially for PG tiffins)
+
+---
+
+## 🚨 Emergency Access
+
+- Global **Emergency FAB** on key pages
+- One-tap access to Crisis mode
+- Safety links visible across modes
+
+Designed for **high-stress, low-attention moments**.
+
+---
+
+## 🧱 Tech Stack
+
+- HTML5 (static)
+- CSS (base / layout / components split)
+- Vanilla JavaScript
+- GitHub Pages (deployment)
+
+No backend. No authentication. No analytics in v1.
+
+---
+
+## 🔒 v1 Scope Lock
+
+### Included in v1
+- Mode-based structure
+- Safety & Crisis pillar
+- Lost & Found
+- Mess & Tiffin feedback depth
+- Emergency access UX
+
+### Explicitly NOT in v1
+- User accounts / login
+- Backend or database
+- Anonymous forums / whisper boards
+- Calculators or quizzes
+- PWA service worker
+- Analytics
+
+These are **intentionally postponed**, not missing.
+
+---
+
+## 🎯 Product Positioning
+
+Campus Circle is **not**:
+- a hostel/PG listing site
+- a real-estate platform
+- a social network
+
+It is a **survival layer** that helps students:
+- decide
+- cope
+- respond when things go wrong
+
+---
+
+## 📌 Status
+
+This is a **finished v1 static demo**, suitable for:
+- concept validation
+- demos and presentations
+- faculty or reviewer walkthroughs
+
+Further development should focus on **depth, not breadth**.
+
+---
+
+© 2026 Campus Circle
